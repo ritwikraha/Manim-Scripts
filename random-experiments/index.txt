@@ -1,4 +1,5 @@
 1,unit-circle,to generate unit circle sinusoid wave
 2,make-graph,simple script to create a graph
 3,make-directed-graph,script to create a directed graph in manim
+4,exponential-graph,script to create an exponential graph from scratch
  
