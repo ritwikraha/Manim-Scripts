@@ -1,3 +1,3 @@
 # This file is used internally by FFMPEG.
-file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/exponential-graph/media/videos/start/480p15/partial_movie_files/ExponentialPlot/3163782288_1743793180_4245707448.mp4'
-file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/exponential-graph/media/videos/start/480p15/partial_movie_files/ExponentialPlot/2201830969_1152551009_3289926403.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/exponential-graph/media/videos/start/480p15/partial_movie_files/ExponentialPlot/3163782288_1093950578_1288649519.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/exponential-graph/media/videos/start/480p15/partial_movie_files/ExponentialPlot/2201830969_398514950_1865200790.mp4'

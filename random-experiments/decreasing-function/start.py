@@ -1,19 +1,19 @@
 from manim import *
 import numpy as np
 
-# manim -p -ql -i start.py ExponentialPlot
+# manim -p -ql -i start.py DecreasingFunctionPlot
 
-class ExponentialPlot(Scene):
+class DecreasingFunctionPlot(GraphScene):
        def construct(self):
         ax = Axes(
             x_range=[-10, 10], y_range=[0, 100, 10], axis_config={"include_tip": True}
         )
-        labels = ax.get_axis_labels(x_label="x", y_label="exp(-x)")
+        labels = ax.get_axis_labels(x_label="x", y_label="y = 5-x")
 
         t = ValueTracker(-10)
 
         def func(x):
-            return np.exp(-x)
+            return 5-x
         graph = ax.get_graph(func, color=MAROON)
 
         initial_point = [ax.coords_to_point(t.get_value(), func(t.get_value()))]
