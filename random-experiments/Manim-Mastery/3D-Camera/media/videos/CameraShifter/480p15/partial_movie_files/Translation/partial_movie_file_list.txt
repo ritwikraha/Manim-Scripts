@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/CameraShifter/480p15/partial_movie_files/Translation/3646303148_2839631542_2511716261.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/CameraShifter/480p15/partial_movie_files/Translation/1152010229_1053574934_244937093.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/CameraShifter/480p15/partial_movie_files/Translation/2168309094_2839631542_4034515878.mp4'

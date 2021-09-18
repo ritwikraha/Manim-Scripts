@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/continous-graph/480p15/partial_movie_files/Curve/3037942064_4013684687_3900501178.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/continous-graph/480p15/partial_movie_files/Curve/3225728870_192920820_3845504501.mp4'
