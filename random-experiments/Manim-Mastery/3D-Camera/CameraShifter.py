@@ -30,20 +30,25 @@ class Translation(ThreeDScene):
                                                    .rotate(90 * DEGREES, axis=X_AXIS))]
 
         X_C = Arrow3D(secondAxesPosition, worldPoint.get_center(), color=YELLOW)
-        #
-        # axes2.generate_target()
+        self.add(worldAxes, *labelWorld)
+        self.play(FadeIn(worldAxes))
+        self.wait(0.5)
+        self.add(cameraAxes, *labelCamera)
+        self.play(FadeIn(cameraAxes))
+        self.wait(0.5)
+        self.add(worldPoint)
+        self.play(FadeIn(worldPoint))
+        self.wait(0.5)
+        self.add(X_W)
 
-        self.add(worldAxes,
-                 *labelWorld,
-                 worldPoint,
-                 X_W,
-                 cameraAxes,
-                 *labelCamera)
-        self.wait(1)
+        self.wait(0.5)
         self.move_camera(
             phi=75 * DEGREES,
             theta=40 * DEGREES,
             rate=0.5
         )
+        self.wait(0.5)
+        self.remove(X_W)
+        self.wait(0.5)
         self.add(X_C)
         self.wait(1)
