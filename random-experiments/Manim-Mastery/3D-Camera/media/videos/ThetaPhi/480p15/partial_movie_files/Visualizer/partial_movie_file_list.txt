@@ -1,7 +1,6 @@
 # This file is used internally by FFMPEG.
-file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/3646303148_2995419389_2100770605.mp4'
-file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/1152010229_2559461702_640906129.mp4'
-file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/1152010229_1145351142_992066260.mp4'
-file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/858983513_3719122154_1466069906.mp4'
-file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/858983513_1784049496_1620683695.mp4'
-file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/858983513_2839631542_4057868048.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/2424599535_2522698052_2917480934.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/1838003240_2559461702_1743906747.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/1838003240_3163405146_1932748578.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/3762044880_2549575878_1312594798.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/ThetaPhi/480p15/partial_movie_files/Visualizer/4227017428_904245605_979779794.mp4'
