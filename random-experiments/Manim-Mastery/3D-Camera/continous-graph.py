@@ -6,6 +6,7 @@ import numpy as np
 # manim -p -qh  continous-graph.py Curve
 class Curve(ThreeDScene):
     def construct(self):
+        self.camera.background_color = WHITE
         axes = ThreeDAxes()
         self.set_camera_orientation(phi=75 * DEGREES, theta=45 * DEGREES, distance=9)
         self.add(axes)

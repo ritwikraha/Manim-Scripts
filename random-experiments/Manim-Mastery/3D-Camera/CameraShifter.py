@@ -2,23 +2,25 @@ from manim import *
 import numpy as np
 
 
-# manim -p -ql -i CameraShifter.py Translation
+# manim -p -ql -format=gif CameraShifter.py Translation
 class Translation(ThreeDScene):
+
     def construct(self):
+
         worldAxes = ThreeDAxes()
         labelWorld = [worldAxes.get_z_axis_label(Tex("$Z_w$")),
                       worldAxes.get_x_axis_label(Tex("$X_w$").rotate(90 * DEGREES, axis=X_AXIS)),
                       worldAxes.get_y_axis_label(Tex("$Y_w$").rotate(90 * DEGREES, axis=X_AXIS))]
 
-        self.set_camera_orientation(phi=75 * DEGREES, theta=-45 * DEGREES)
+        self.set_camera_orientation(phi=75 * DEGREES, theta=-45 * DEGREES, distance=20)
         worldPoint = Dot3D([0.0, 1.0, 2.0], color=RED)
 
         origin = Dot3D([0.0, 0.0, 0.0])
         X_W = Arrow3D(origin.get_center(), worldPoint.get_center(), color=WHITE)
         x_w_Label = MathTex("X_W").next_to(X_W, RIGHT).rotate(90 * DEGREES, axis=X_AXIS)
 
-        secondAxesPosition = [3.0, 3.0, 3.0]
-        secondAxisScaler = 0.3
+        secondAxesPosition = [0.0, 20.0, 0.0]
+        secondAxisScaler = 1
 
         cameraAxes = (ThreeDAxes(x_length=5, y_length=5, z_length=5).scale(secondAxisScaler)
                       .shift(secondAxesPosition))
@@ -32,7 +34,8 @@ class Translation(ThreeDScene):
                                                    .rotate(90 * DEGREES, axis=X_AXIS))]
 
         X_C = Arrow3D(secondAxesPosition, worldPoint.get_center(), color=YELLOW)
-        x_c_Label = MathTex("X_C", color=YELLOW).next_to(worldPoint, RIGHT).rotate(90 * DEGREES, axis=X_AXIS).flip(axis=Z_AXIS)
+        x_c_Label = MathTex("X_C", color=YELLOW).next_to(worldPoint, RIGHT).rotate(90 * DEGREES, axis=X_AXIS).flip(
+            axis=Z_AXIS)
 
         self.add(worldAxes, *labelWorld)
         self.play(FadeIn(worldAxes, *labelWorld))
@@ -51,7 +54,7 @@ class Translation(ThreeDScene):
         self.move_camera(
             phi=75 * DEGREES,
             theta=40 * DEGREES,
-            rate=0.5
+            distance=20
         )
         self.wait(0.5)
         self.remove(X_W)

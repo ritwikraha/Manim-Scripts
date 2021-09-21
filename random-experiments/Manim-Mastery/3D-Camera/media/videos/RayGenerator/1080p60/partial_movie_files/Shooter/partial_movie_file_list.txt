@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/3963279766_3623251240_1747638160.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/4085046001_2839631542_3461807700.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/4085046001_1515007061_1631155934.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/4085046001_2839631542_553546801.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/4085046001_2936421751_1702404597.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/4085046001_2825084242_2506688871.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/4085046001_2839631542_2133679713.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/4085046001_1999787583_4068379161.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/3676418341_2839631542_3821417332.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/724367496_1642523157_1195852724.mp4'
+file 'file:E:/study/BLOGS/Manim-Scripts/random-experiments/Manim-Mastery/3D-Camera/media/videos/RayGenerator/1080p60/partial_movie_files/Shooter/3028832879_3493041802_2576039997.mp4'
